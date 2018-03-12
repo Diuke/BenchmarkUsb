@@ -1,5 +1,13 @@
-import file as f
+import tkinter as tk
 
-B = f.BenchTests("F")
-print(B.testCreate())
-print(B.testDelete())
+import draw as draw
+import threading
+
+main_window = tk.Tk()
+
+app = draw.Application(main_window)
+
+app.mainloop()
+
+#print(Bench.testCreate())
+#print(Bench.testDelete())
